@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    background-color: #212121;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+
+}
+
+/*App margin*/
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}

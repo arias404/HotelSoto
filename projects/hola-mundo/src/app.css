@@ -1,0 +1,75 @@
+
+
+/*Estilos*/
+
+.tw-followCard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    gap:50px;
+    justify-content: space-between;
+}
+
+.tw-followCard-header {
+    display: flex;
+    align-items: center;
+    gap :4px;
+}
+
+.tw-followCard-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-followCard-infoUserName {
+    opacity: .6;
+}
+
+.tw-followCard-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.tw-followCard-button {
+    border-radius: 999px;
+    border: 1px solid black ;
+    padding: 6px 16px;
+    font-weight: bold;
+}
+
+.tw-followCard-button:hover{
+    opacity: .9;
+}
+
+.is-following{
+    border: 1px solid #bbb;
+    background: transparent;
+    color: #fff;
+    width: 130px;
+}
+
+.is-following:hover {
+    background-color: #c7000020;
+    border: 1px solid red;
+    transition: .5 ease all;
+    opacity: 1;
+}
+
+.is-following:hover .tw-followCard-stopFollowing{
+    display:block;
+    font-size: 12px;
+    color: #ff2e2e;
+}
+
+.is-following:hover .tw-followCard-text{
+    display:none;
+}
+
+.tw-followCard-stopFollowing{
+    display:none;
+}
+
+
+
